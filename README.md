@@ -15,9 +15,10 @@ The project consists of two main parts:
 2. Spring Boot Project: This project provides RESTful endpoints to interact with the Python project and manage device data.
 
 
-#### Note
-## I didn’t use Spring Boot before, so I used resources from the internet and AI to help with this project. I also tested the API endpoints without Spring Boot using Postman, focusing only on predicting the price.
+## Note
+### I didn’t use Spring Boot before, so I used resources from the internet and AI to help with this project. I also tested the API endpoints without Spring Boot using Postman, focusing only on predicting the price.
 
+##
 
 ### API Endpoints
 The following RESTful endpoints are available:
@@ -57,14 +58,14 @@ POST /api/predict/{deviceId}: Call the Python API to predict the price and save 
     ● 3 (very high cost)
 
 
-### Python Project
- ## DataSet: Devices specifications:
+## Python Project
+ ### DataSet: Devices specifications:
   ○ Train Data: train_data.csv
   ○ Test Data: test_data.csv
 
 
-### Install the Required Dependencies:
-   pip install -r requirements.txt
+## Install the Required Dependencies:
+  ■ pip install -r requirements.txt
   ### requirements.txt file:
     ■ numpy==1.21.0
     ■ pandas==1.3.0
@@ -73,12 +74,12 @@ POST /api/predict/{deviceId}: Call the Python API to predict the price and save 
     ■ requests==2.25.1
 
 ## Run the Python Service:
-python main.py
+■ python main.py
 
-### Testing
-## To test the prediction for 10 devices from the test dataset, you can use tools like Postman or cURL to send requests to the [ http://127.0.0.1:5000/predict/ ] endpoint. Here are ten example devices you can use for testing:
+## Testing
+### To test the prediction for 10 devices from the test dataset, you can use tools like Postman or cURL to send requests to the [ http://127.0.0.1:5000/predict/ ] endpoint. Here are ten example devices you can use for testing:
   ## Testing use Postman 
-  ## Body (  ### JSON ) :
+  ### Body (  ### JSON ) :
 ## Device 1:
 { "battery_power": 842, "blue": 0, "clock_speed": 2.2, "dual_sim": 1, "fc": 1, "four_g": 0, "int_memory": 7, "m_dep": 0.6, "mobile_wt": 188, "n_cores": 2, "pc": 2, "px_height": 20, "px_width": 756, "ram": 2549, "sc_h": 9, "sc_w": 7, "talk_time": 19, "three_g": 0, "touch_screen": 0, "wifi": 1 } 
 ## Device 2:
@@ -101,5 +102,5 @@ python main.py
 { "battery_power": 1969, "blue": 0, "clock_speed": 2.0, "dual_sim": 1, "fc": 1, "four_g": 1, "int_memory": 39, "m_dep": 0.8, "mobile_wt": 122, "n_cores": 7, "pc": 18, "px_height": 1137, "px_width": 1719, "ram": 390, "sc_h": 5, "sc_w": 2, "talk_time": 20, "three_g": 1, "touch_screen": 1, "wifi": 0 }
 
 
-#### Note
-## I didn’t use Spring Boot before, so I used resources from the internet and AI to help with this project. I also tested the API endpoints without Spring Boot using Postman, focusing only on predicting the price.
+## Note
+### I didn’t use Spring Boot before, so I used resources from the internet and AI to help with this project. I also tested the API endpoints without Spring Boot using Postman, focusing only on predicting the price.
