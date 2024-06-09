@@ -21,12 +21,12 @@ The project consists of two main parts:
 ##
 
 ### API Endpoints
-The following RESTful endpoints are available:
+ The following RESTful endpoints are available:
 
-POST /api/devices/: Retrieve a list of all devices.
-GET /api/devices/{id}: Retrieve details of a specific device by ID.
-POST /api/devices: Add a new device.
-POST /api/predict/{deviceId}: Call the Python API to predict the price and save the result in the device entity.
+   ■  POST /api/devices/: Retrieve a list of all devices.
+   ■  GET /api/devices/{id}: Retrieve details of a specific device by ID.
+   ■  POST /api/devices: Add a new device.
+   ■  POST /api/predict/{deviceId}: Call the Python API to predict the price and save the result in the device entity.
 
 
 ### Dataset columns are as follows:
